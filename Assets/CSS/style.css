@@ -1,0 +1,51 @@
+/* body {
+    background-image: url("../Images/bg.png");
+} */
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 960px;
+    margin: auto;
+    
+}
+
+#header {
+    background-color: #ffffff;
+}
+
+ul li {
+    
+    display: inline;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+
+.nav1 {
+    border-right: 1px solid #777;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+#name {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+nav {
+    float: right;
+}
+
+#main {
+    clear: both;
+}
+
+
