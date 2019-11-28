@@ -2,6 +2,8 @@ body {
     background-image: url("../Images/bg.png");
     /* background-color: blanchedalmond; */
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 * {
     box-sizing: border-box;
@@ -10,18 +12,25 @@ body {
 #container1 {
     width: 960px;
     margin: auto;
-    height: 78.8;
+    /* height: 78.8; */
 }
 
 #container2 {
     width: 960px;
     margin: auto;
-    clear: both;
+    background: white;
+    border: solid 1px #dddddd;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    /* flex: 1 0 auto; */
+    /* clear: both; */
 }
 
 #parent {
     background: white;
     width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #cccccc;
 }
 
 nav {
@@ -37,11 +46,12 @@ ul li {
 }
 
 .nav1 {
-    border-right: 1px solid #777;
+    border-right: 1px solid #777777;
+    
 }
 
 .nav2 {
-    border-right: 1px solid #777;
+    border-right: 1px solid #777777;
 }
 
 ul li a {
@@ -55,18 +65,68 @@ ul li a {
     background-color: #4aaaa5;
     color: white;
     padding: 0px 20px;
-    
+    height: 100%;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #title {
     color: #4aaaa5;
+    padding: 15px 0px 30px 0px;
+    border-bottom: solid 2px #dddddd;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#content {
+    padding: 10px 0px;
 }
 
 #main {
-    clear: both;
-    background: white;
+    /* clear: both; */
+    width: 900px;
+    margin: auto;
+}
+
+p {
+    line-height: 36px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    /* float: left; */
+    /* width: auto; */
+    /* padding: 20px;; */
+}
+
+#p1 {
+    margin-top: 0px;
+    margin-left: 215px;
+    position: relative;
+    top: -8px;
+}
+
+#mepic {
+    width: 192px;
+    height: auto;
+    float: left;
+    border: solid 1px #dddddd;
+}
+
+#footer {
     
+    width: 100%;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    background: #666666;
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: fit-content;
+    margin: auto;
+    flex-shrink: 0;
+    padding-top: 20px;
 }
 
 
