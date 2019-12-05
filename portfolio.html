@@ -5,6 +5,7 @@
     </head>
 
     <body>
+        <!-- Everything in parent container is identical to index.html -->
         <div id="parent">
 
             <div id="container1">
@@ -24,21 +25,25 @@
             </div>
             
         </div>
-
+        <!-- The structure of container2 is identical to that of index.html except for what is found in between the content container and the heading title -->
         <div id="container2">
+
                 <div id="main">
+
                     <h1 id="title">Portfolio</h1>
 
                     <div id="content">
-
+                        <!-- Adding each portfolio item in their own container to be able to float them easily -->
                         <div class="items">
+                            <!-- Linking my pre-work game i created using scratch and opening in a new tab -->
                             <a href="https://scratch.mit.edu/projects/342308517" target="_blank">
                                 <img id="item1" src="Assets/Images/Screen Shot 2019-12-04 at 9.50.59 PM.png" alt="">
+                                <!-- Creating a container for the text on the portfolio item image so that I can position it absolutley relative to the portfolio image -->
                                 <div class="itemtext">A Game of Cat & Mouse</div>
                             </a>
                             
                         </div>
-
+                        <!-- Same structure as above. If i were to create mutiple rows, I would put however many i wanted per row each in their own container divs -->
                         <div class="items">
                             <a href="">
                                 <img id="item2" src="https://via.placeholder.com/200" alt="">
